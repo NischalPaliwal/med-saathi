@@ -8,6 +8,7 @@ import { ToggleThemeButton } from '../components/ToggleThemeButton';
 // import Patients from "../SideBarNav/patients";
 // import Reports from "../SideBarNav/reports";
 import Patient2 from "../SideBarNav/patient-non-uhi";
+import BeforeIntroPage from "../Onboarding/BeforeIntroPage";
 import IntroPage from "../Onboarding/IntroPage";
 // import Settings from "../SideBarNav/settings";
 import Billing from "../SideBarNav/billing";
@@ -19,6 +20,9 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 const { Header, Sider } = Layout;
 
 export default function Sidebar() {
+
+  const [set]
+
   const [darkTheme, setDarkTheme] = useState(true);
   const [collapsed, setCollapsed] = useState(false);
   const toggleTheme = () => {

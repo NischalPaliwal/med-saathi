@@ -8,7 +8,7 @@ export default function IntroPage() {
         <div className="outermost_div">
             <div className="welcome_message">
                 <h1>WELCOME to MedSaathi,</h1>
-                <h3>A hospital management interface designed to disrupt medical sector.</h3>
+                <h3><i>A hospital management interface designed to disrupt medical sector!!!</i></h3>
             </div>
             <div className="description_1">
                 <h3>Welcome to MedSaathi, the ultimate healthcare management system for Super Admins. Our platform is designed to provide unparalleled control and visibility over healthcare operations, enabling Super Admins to make informed decisions and drive excellence in patient care.</h3>
@@ -47,6 +47,17 @@ export default function IntroPage() {
             </div>
             <div className="description_2">
                 <h1>and many more.....</h1>
+            </div>
+            <div className="bottom-area">
+                Team MedSaathi
+                <ol>
+                    <li>Nischal Paliwal</li>
+                    <li>Riddhika Paliwal</li>
+                    <li>Saransh Lodha</li>
+                    <li>Mudrika Paliwal</li>
+                    <li>Hariom Parikh</li>
+                    <li>Manish Dabaria</li>
+                </ol>
             </div>
         </div>
     );

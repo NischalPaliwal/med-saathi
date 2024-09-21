@@ -223,3 +223,12 @@
   height: 600px;
   width: 1200px;
 }
+.bottom-area {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: #333;
+  border-top: 1px solid #000000;
+  color: #FFFFFF;
+}
