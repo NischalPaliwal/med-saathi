@@ -11,11 +11,15 @@ import UpdateIcon from '@mui/icons-material/Update';
 const MenuList = ({ darkTheme }) => {
   return (
     <div>
-      <Menu  theme={darkTheme ? 'dark' : 'light'} className='menu-bar'>
+      <Menu theme={darkTheme ? 'dark' : 'light'} className='menu-bar'>
         <Menu.Item key='dashboard' icon={<DashboardIcon />} >Dashboard</Menu.Item>
         <Menu.Item key='doctors' icon={<MedicalServicesIcon />} >Doctors</Menu.Item>
         <Menu.Item key='patients' icon={<PersonIcon />} >Patients</Menu.Item>
-        <Menu.Item key='updataData' icon={<UpdateIcon />} >Update Data</Menu.Item>
+        <Menu.SubMenu key='updataData' icon={<UpdateIcon />} title='Update Data' >
+        <Menu.Item>Patient Data</Menu.Item>
+        <Menu.Item>Doctor Data</Menu.Item>
+        <Menu.Item>Hospital Data</Menu.Item>
+        </Menu.SubMenu>
         <Menu.Item key='inventory' icon={<InventoryIcon />} >Inventory</Menu.Item>
         <Menu.Item key='reports' icon={<AssignmentIcon />} >Reports</Menu.Item>
         <Menu.Item key='billing' icon={<AttachMoneyIcon />} >Billing</Menu.Item>

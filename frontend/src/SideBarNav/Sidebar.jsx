@@ -36,7 +36,7 @@ function Sidebar() {
       <Layout>
         <Sider collapsed={collapsed} collapsible trigger={null} theme={darkTheme ? 'dark' : 'light'} className='sidebar'>
           <Logo />
-          <MenuList darkTheme={darkTheme} />
+          <MenuList />
           <ToggleThemeButton darkTheme={darkTheme} toggleTheme={toggleTheme} />
         </Sider>
         <Layout>
