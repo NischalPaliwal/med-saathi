@@ -1,0 +1,187 @@
+.sidebar {
+    color: #FFFFFF;
+    height: 100vh
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    padding: 10px;
+}
+.logo-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    background: rgba(28, 17, 41, 0.88);
+}
+.menu-bar {
+    height: 85vh;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 1rem;
+    position: relative;
+}
+.toggle-theme-btn {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+.toggle {
+    margin-left: 15px;
+}
+.full-screen-sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.med-saathi-outer-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.med-saathi-inner-div {
+    margin-top: 1.5rem;
+    font-size: medium;
+    font-weight: bold
+}
+.patient-dashboard {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .patient-details {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #000000;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .patient-details ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .patient-details li {
+    margin-bottom: 10px;
+  }
+  
+  .patient-details strong {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .appointment-history,
+  .upcoming-appointments,
+  .lab-tests,
+  .vital-signs {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #000000;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .appointment-history ul,
+  .upcoming-appointments ul,
+  .lab-tests ul,
+  .vital-signs ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .appointment-history li,
+  .upcoming-appointments li,
+  .lab-tests li,
+  .vital-signs li {
+    margin-bottom: 10px;
+  }
+  
+  .appointment-history span.status,
+  .upcoming-appointments span.status {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .appointment-history span.status.completed {
+    color: green;
+  }
+  
+  .appointment-history span.status.pending {
+    color: orange;
+  }
+  
+  .upcoming-appointments span.status.pending {
+    color: orange;
+  }
+  
+.export-button-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .export-button {
+    background-color: #3d09f8;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 70px;
+    width: 180px;
+    font-size: large;
+    font-weight: bold;
+  }
+
+  .export-button:hover {
+    background-color: #3e8e41;
+  }
+  
+ .container-fluid {
+    position: relative;
+    overflow-Y: scroll;
+    height: 90vh;
+ }
+
+ .row {
+    display: flex;
+    flex-direction: row;
+ }
+
+ .col-md-12 {
+    margin: 20px;
+    margin-left: 50px;
+    padding: 20px;
+    border-radius: 40px;
+    border-color: #000000;
+    border-width: medium;
+ }
+ 
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
