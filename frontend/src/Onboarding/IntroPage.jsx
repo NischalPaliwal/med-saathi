@@ -48,17 +48,6 @@ export default function IntroPage() {
             <div className="description_2">
                 <h1>and many more.....</h1>
             </div>
-            <div className="bottom-area">
-                Team MedSaathi
-                <ol>
-                    <li>Nischal Paliwal</li>
-                    <li>Riddhika Paliwal</li>
-                    <li>Saransh Lodha</li>
-                    <li>Mudrika Paliwal</li>
-                    <li>Hariom Parikh</li>
-                    <li>Manish Dabaria</li>
-                </ol>
-            </div>
         </div>
     );
 }

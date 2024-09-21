@@ -10,7 +10,7 @@ import SettingsIcon from '@mui/icons-material/Settings';
 const MenuList = ({ darkTheme }) => {
   return (
     <div>
-      <Menu theme={darkTheme ? 'dark' : 'light'} className='menu-bar'>
+      <Menu  theme={darkTheme ? 'dark' : 'light'} className='menu-bar'>
         <Menu.Item key='dashboard' icon={<DashboardIcon />} >Dashboard</Menu.Item>
         <Menu.Item key='doctors' icon={<MedicalServicesIcon />} >Doctors</Menu.Item>
         <Menu.Item key='patients' icon={<PersonIcon />} >Patients</Menu.Item>

@@ -4,24 +4,22 @@ import MenuList from '../components/MenuList';
 import { MenuUnfoldOutlined, MenuFoldOutlined } from "@ant-design/icons";
 import { useState } from 'react';
 import { ToggleThemeButton } from '../components/ToggleThemeButton';
-// import Dashboard from "../SideBarNav/dashboard";
-// import Patients from "../SideBarNav/patients";
-// import Reports from "../SideBarNav/reports";
+import Dashboard from "../SideBarNav/dashboard";
+import Patients from "../SideBarNav/patients";
+import Reports from "../SideBarNav/reports";
 import Patient2 from "../SideBarNav/patient-non-uhi";
 import BeforeIntroPage from "../Onboarding/BeforeIntroPage";
 import IntroPage from "../Onboarding/IntroPage";
 // import Settings from "../SideBarNav/settings";
-import Billing from "../SideBarNav/billing";
+// import Billing from "../SideBarNav/billing";
 import Inventory from "../SideBarNav/inventory";
-// import Doctors from "../SideBarNav/doctors";
+import Doctors from "../SideBarNav/doctors";
 import SearchIcon from '@mui/icons-material/Search';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 const { Header, Sider } = Layout;
 
-export default function Sidebar() {
-
-  const [set]
+function Sidebar() {
 
   const [darkTheme, setDarkTheme] = useState(true);
   const [collapsed, setCollapsed] = useState(false);
@@ -32,7 +30,7 @@ export default function Sidebar() {
   const {
     token: { colorBgContainer }
   } = theme.useToken();
-
+  
   return (
     <>
       <Layout>
@@ -67,4 +65,6 @@ export default function Sidebar() {
       </Layout>
     </>
   );
-}
+};
+
+export default Sidebar;
