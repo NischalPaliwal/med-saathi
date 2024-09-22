@@ -16,9 +16,9 @@ const MenuList = ({ darkTheme }) => {
         <Menu.Item key='doctors' icon={<MedicalServicesIcon />} >Doctors</Menu.Item>
         <Menu.Item key='patients' icon={<PersonIcon />} >Patients</Menu.Item>
         <Menu.SubMenu key='updataData' icon={<UpdateIcon />} title='Update Data' >
-        <Menu.Item>Patient Data</Menu.Item>
-        <Menu.Item>Doctor Data</Menu.Item>
-        <Menu.Item>Hospital Data</Menu.Item>
+        <Menu.Item>Update Patient Data</Menu.Item>
+        <Menu.Item>Update Doctor Data</Menu.Item>
+        <Menu.Item>Update Hospital Data</Menu.Item>
         </Menu.SubMenu>
         <Menu.Item key='inventory' icon={<InventoryIcon />} >Inventory</Menu.Item>
         <Menu.Item key='reports' icon={<AssignmentIcon />} >Reports</Menu.Item>

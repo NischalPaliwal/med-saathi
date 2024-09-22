@@ -2,6 +2,7 @@ import dashboard_demo from "../assets/dashboard-demo.png";
 import inventory_demo from "../assets/inventory-dashboard.png";
 import doctor_demo from "../assets/doctor-demo.png";
 import patient_demo from "../assets/patient-dashboard-demo.png";
+import data_update_demo from "../assets/data-update demo.png";
 
 export default function IntroPage() {
     return (
@@ -44,6 +45,12 @@ export default function IntroPage() {
             </div>
             <div className="dashboard_image">
                 <img src={inventory_demo}></img>
+            </div>
+            <div className="description_2">
+                <h1>Data Updation Page.....</h1>
+            </div>
+            <div className="dashboard_image">
+                <img src={data_update_demo}></img>
             </div>
             <div className="description_2">
                 <h1>and many more.....</h1>

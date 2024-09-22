@@ -1,5 +1,5 @@
 .sidebar {
-    color: #FFFFFF;
+    color: #ffffff;
     height: 100vh
 }
 .logo {
@@ -231,4 +231,90 @@
   background-color: #333;
   border-top: 1px solid #000000;
   color: #FFFFFF;
+}
+.form {
+  font-size: large;
+  margin-top: 10px;
+  height: 20px;
+}
+.form-button {
+  margin-top: 40px;
+  height: 60px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0zMDktYWRqLTE0LmpwZw.jpg');
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-container {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px darkslategrey;
+  width: 500px;
+}
+
+.auth-container header {
+  margin-bottom: 20px;
+}
+
+.auth-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-container label {
+  margin-bottom: 10px;
+}
+
+.auth-container input {
+  height: 45px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid darkslategrey;
+  border-radius: 5px;
+}
+
+.auth-container button[type="submit"] {
+  background-color: #5A4FCF;
+  color: antiquewhite;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.social-login {
+  margin-top: 20px;
+}
+
+.social-login button {
+  background-color: #5A4FCF;
+  color: antiquewhite;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+footer {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
 }
